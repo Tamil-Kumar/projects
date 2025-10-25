@@ -1,0 +1,9 @@
+1. What did I learn during the process?
+	I learned how to design a user friendly GUI/frontend.
+	I learned how to change things in the app based on the date.
+
+2. Future plans
+	Using Oracle database to host the data. Use, data, encrypt.
+	Going to add a chat bot
+
+3. Focus more on the actual learning feature
