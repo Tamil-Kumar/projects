@@ -1,0 +1,54 @@
+{
+    "admin": {
+        "password": "root",
+        "skill_level": "Admin",
+        "xp": 0,
+        "streak": 0,
+        "last_login": null,
+        "completed_lessons": []
+    },
+    "test": {
+        "password": "python",
+        "subject": "Physics",
+        "skill_level": "Intermediate",
+        "xp": 60,
+        "streak": 0,
+        "last_login": null
+    },
+    "mom": {
+        "password": "python",
+        "subject": "Physics",
+        "skill_level": "Intermediate",
+        "xp": 23,
+        "streak": 0,
+        "last_login": null
+    },
+    "dad": {
+        "password": "python",
+        "subject": "Physics",
+        "skill_level": "Intermediate",
+        "xp": 20,
+        "streak": 0,
+        "last_login": null
+    },
+    "sister": {
+        "password": "python",
+        "subject": "Physics",
+        "skill_level": "Intermediate",
+        "xp": 2,
+        "streak": 0,
+        "last_login": null
+    },
+    "appchallenge": {
+        "password": "python",
+        "subject": "Physics",
+        "skill_level": "Intermediate",
+        "xp": 105,
+        "streak": 2,
+        "last_login": "2025-10-23",
+        "completed_lessons": [
+            "Physics Lesson 1: Newton's Second Law",
+            "Physics Lesson 2: Work"
+        ]
+    }
+}

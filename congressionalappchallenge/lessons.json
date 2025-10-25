@@ -1,0 +1,530 @@
+{
+    "General": {
+        "Beginner": [
+            {
+                "title": "Lesson 1: Variables",
+                "content": "Variables are used to store data in Python. For example:\n\nx = 5\n\nTry creating a variable named `a` and assign the value `10` to it.",
+                "task_instruction": "Create a variable named `a` and assign it the value 10.",
+                "expected_code": "a = 10",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Lesson 2: Print Statements",
+                "content": "Use the `print()` function to display output. For example:\n\nprint('Hello, world!')\n\nTry printing the number 42.",
+                "task_instruction": "Write code to print the number 42.",
+                "expected_code": "print(42)",
+                "expected_output": "42\n",
+                "xp_reward": 10
+            },
+            {
+                "title": "Lesson 3: If Statements",
+                "content": "If statements let you run code conditionally.\n\nExample:\n\nx = 5\nif x > 3:\n    print('Greater than 3')\n\nTry writing an if statement that prints 'Yes' if variable `a` is equal to 10.",
+                "task_instruction": "Write an if statement that prints 'Yes' if `a` equals 10.",
+                "expected_code": "a = 10\nif a == 10:\n    print('Yes')",
+                "expected_output": "Yes\n",
+                "xp_reward": 15
+            },
+            {
+                "title": "Lesson 4: Strings",
+                "content": "Strings are text in Python. You write them in quotes like this:\n\nname = 'Alice'\n\nTry creating a variable called `name` and set it to your name.",
+                "task_instruction": "Make a string variable called `name` and assign your name to it.",
+                "expected_code": "name = 'Alice'",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Lesson 5: Input",
+                "content": "The `input()` function lets users type something.\n\nExample:\n\nname = input('What is your name?')",
+                "task_instruction": "Ask the user to enter their age using `input()`.",
+                "expected_code": "age = input('Enter your age:')",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Lesson 6: Math Operations",
+                "content": "You can add, subtract, multiply, and divide like this:\n\nx = 5 + 3",
+                "task_instruction": "Make a variable `total` that adds 7 and 8.",
+                "expected_code": "total = 7 + 8",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Lesson 7: Comments",
+                "content": "Use `#` for comments. Comments are ignored by Python.\n\nExample:\n\n# This is a comment",
+                "task_instruction": "Write a comment saying: This is my first program",
+                "expected_code": "# This is my first program",
+                "expected_output": "",
+                "xp_reward": 5
+            },
+            {
+                "title": "Lesson 8: Boolean Values",
+                "content": "Booleans are True or False values.\na = True\nb = False",
+                "task_instruction": "Make a variable `happy` and set it to True.",
+                "expected_code": "happy = True",
+                "expected_output": "",
+                "xp_reward": 5
+            },
+            {
+                "title": "Lesson 9: Comparison Operators",
+                "content": "You can compare values using ==, !=, >, <.\nExample: 3 > 2 is True",
+                "task_instruction": "Write a comparison that checks if 7 is not equal to 5.",
+                "expected_code": "7 != 5",
+                "expected_output": "",
+                "xp_reward": 5
+            },
+            {
+                "title": "Lesson 10: Type Conversion",
+                "content": "You can convert types using int(), str(), float().",
+                "task_instruction": "Convert the string '4' to an integer.",
+                "expected_code": "num = int('4')",
+                "expected_output": "",
+                "xp_reward": 5
+            },
+            {
+                "title": "Lesson 11: Combining Strings",
+                "content": "You can join strings using +\nExample: 'Hi ' + 'there'",
+                "task_instruction": "Make two strings and join them together.",
+                "expected_code": "greeting = 'Hi' + ' there'",
+                "expected_output": "",
+                "xp_reward": 5
+            },
+            {
+                "title": "Lesson 12: Length of String",
+                "content": "Use len() to find string length.\nExample: len('hello')",
+                "task_instruction": "Find the length of the string 'Python'.",
+                "expected_code": "length = len('Python')",
+                "expected_output": "",
+                "xp_reward": 5
+            }
+        ],
+        "Intermediate": [
+            {
+                "title": "Lesson 1: For Loops",
+                "content": "For loops repeat code.\n\nExample:\n\nfor i in range(3):\n    print(i)\n\nTry writing a for loop that prints numbers 0 to 4.",
+                "task_instruction": "Write a for loop to print numbers 0 through 4.",
+                "expected_code": "for i in range(5):\n    print(i)",
+                "expected_output": "0\n1\n2\n3\n4\n",
+                "xp_reward": 20
+            },
+            {
+                "title": "Lesson 2: While Loops",
+                "content": "`while` loops repeat as long as something is true.\n\nExample:\n\nx = 0\nwhile x < 3:\n    print(x)\n    x += 1",
+                "task_instruction": "Write a `while` loop that prints numbers from 1 to 3.",
+                "expected_code": "x = 1\nwhile x <= 3:\n    print(x)\n    x += 1",
+                "expected_output": "1\n2\n3\n",
+                "xp_reward": 20
+            },
+            {
+                "title": "Lesson 3: Lists",
+                "content": "Lists hold multiple values. Example:\n\nfruits = ['apple', 'banana']",
+                "task_instruction": "Make a list called `colors` with red, green, and blue.",
+                "expected_code": "colors = ['red', 'green', 'blue']",
+                "expected_output": "",
+                "xp_reward": 15
+            },
+            {
+                "title": "Lesson 4: Indexing a List",
+                "content": "You can get items from a list like this:\n\nfruits = ['apple', 'banana']\nprint(fruits[0])",
+                "task_instruction": "Make a list of 3 animals and print the second one.",
+                "expected_code": "animals = ['dog', 'cat', 'bird']\nprint(animals[1])",
+                "expected_output": "cat\n",
+                "xp_reward": 15
+            },
+            {
+                "title": "Lesson 5: List Length",
+                "content": "Use len() to get number of items in a list.\nExample: len(fruits)",
+                "task_instruction": "Create a list with 4 animals and get its length.",
+                "expected_code": "animals = ['cat','dog','bird','fish']\nlength = len(animals)",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Lesson 6: Loop Through Lists",
+                "content": "Use a loop to go through a list.\nExample:\nfor x in list:\n  print(x)",
+                "task_instruction": "Print every item in the list `['a', 'b', 'c']`.",
+                "expected_code": "for letter in ['a','b','c']:\n    print(letter)",
+                "expected_output": "a\nb\nc\n",
+                "xp_reward": 10
+            },
+            {
+                "title": "Lesson 7: Nested Loops",
+                "content": "A loop inside another loop is called nested loop.",
+                "task_instruction": "Make 2 loops that print a 2x2 grid of numbers.",
+                "expected_code": "for i in range(2):\n    for j in range(2):\n        print(i,j)",
+                "expected_output": "0\t0\n0\t1\n1\t0\n1\t1\n",
+                "xp_reward": 15
+            },
+            {
+                "title": "Lesson 8: Break in Loops",
+                "content": "`break` stops the loop early.",
+                "task_instruction": "Print numbers 1 to 10 but stop at 5.",
+                "expected_code": "for i in range(1,11):\n    if i == 6:\n        break\n    print(i)",
+                "expected_output": "1\n2\n3\n4\n5\n",
+                "xp_reward": 15
+            },
+            {
+                "title": "Lesson 9: Continue in Loops",
+                "content": "`continue` skips to next loop step.",
+                "task_instruction": "Print numbers 1 to 5 skipping number 3.",
+                "expected_code": "for i in range(1,6):\n    if i == 3:\n        continue\n    print(i)",
+                "expected_output": "1\n2\n4\n5\n",
+                "xp_reward": 15
+            },
+            {
+                "title": "Lesson 10: List Append",
+                "content": "Use append() to add to lists.",
+                "task_instruction": "Add 'orange' to the list fruits.",
+                "expected_code": "fruits = []\nfruits.append('orange')",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Lesson 11: List Index",
+                "content": "Use index to find position of item in list.",
+                "task_instruction": "Find index of 'b' in ['a','b','c'].",
+                "expected_code": "letters = ['a','b','c']\ni = letters.index('b')",
+                "expected_output": "",
+                "xp_reward": 10
+            }
+        ],
+        "Advanced": [
+            {
+                "title": "Lesson 1: Functions",
+                "content": "Functions group reusable code.\n\nExample:\n\ndef greet():\n    print('Hello')\n\ngreet()\n\nTry writing a function `add` that returns the sum of two numbers.",
+                "task_instruction": "Write a function `add(a, b)` that returns the sum of a and b to be 5.",
+                "expected_code": "def add(a, b):\n    return a + b\n\nprint(add(2, 3))",
+                "expected_output": "5\n",
+                "xp_reward": 30
+            },
+            {
+                "title": "Lesson 2: Return Statements",
+                "content": "`return` gives a value back from a function.\n\nExample:\n\ndef double(x):\n    return x * 2",
+                "task_instruction": "Write a function that returns the square of a number, and then test it by inputting 4 as the number.",
+                "expected_code": "def square(x):\n    return x * x\n\nprint(square(4))",
+                "expected_output": "16\n",
+                "xp_reward": 30
+            },
+            {
+                "title": "Lesson 3: If-Else in Functions",
+                "content": "You can use `if` inside functions to make decisions.\n\nExample:\n\ndef check(x):\n    if x > 0:\n        return 'Positive'\n    else:\n        return 'Not Positive'",
+                "task_instruction": "Write a function that returns 'Even' if a number is even, else 'Odd'.",
+                "expected_code": "def check_even(x):\n    if x % 2 == 0:\n        return 'Even'\n    else:\n        return 'Odd'\n\nprint(check_even(5))",
+                "expected_output": "Odd\n",
+                "xp_reward": 30
+            },
+            {
+                "title": "Lesson 4: Dictionaries",
+                "content": "Dictionaries store data in key-value pairs.\n\nExample:\n\nperson = {'name': 'Tom', 'age': 12}\nprint(person['name'])",
+                "task_instruction": "Make a dictionary for a book with keys: title and author.",
+                "expected_code": "book = {'title': 'My Book', 'author': 'Me'}",
+                "expected_output": "",
+                "xp_reward": 25
+            },
+            {
+                "title": "Lesson 5: Functions with Multiple Returns",
+                "content": "A function can return many values as a tuple.",
+                "task_instruction": "Make a function that returns (a+b, a*b).",
+                "expected_code": "def calc(a,b):\n    return a+b, a*b\n\nprint(calc(2,3))",
+                "expected_output": "(5, 6)\n",
+                "xp_reward": 30
+            },
+            {
+                "title": "Lesson 6: Default Arguments",
+                "content": "You can set default values in functions.\ndef greet(name='User')",
+                "task_instruction": "Write a function with default argument age=10.",
+                "expected_code": "def show_age(age=10):\n    print(age)\n\nshow_age()",
+                "expected_output": "10\n",
+                "xp_reward": 25
+            },
+            {
+                "title": "Lesson 7: Keyword Arguments",
+                "content": "You can name arguments when calling functions.\nfunc(x=1, y=2)",
+                "task_instruction": "Call a function using keyword arguments.",
+                "expected_code": "def greet(name, age):\n    print(name, age)\n\ngreet(age=12, name='Tom')",
+                "expected_output": "Tom 12\n",
+                "xp_reward": 25
+            },
+            {
+                "title": "Lesson 8: Lambda Functions",
+                "content": "A lambda is a short function.\nadd = lambda x,y: x+y",
+                "task_instruction": "Use lambda to square a number.",
+                "expected_code": "square = lambda x: x**2\nprint(square(4))",
+                "expected_output": "16\n",
+                "xp_reward": 25
+            },
+            {
+                "title": "Lesson 9: Try Except",
+                "content": "Use try-except to handle errors.",
+                "task_instruction": "Catch an error if user enters text instead of number.",
+                "expected_code": "try:\n    x = int('hi')\nexcept:\n    print('Error')",
+                "expected_output": "Error\n",
+                "xp_reward": 25
+            },
+            {
+                "title": "Lesson 10: Reading Files",
+                "content": "Use open() to read files.\nwith open('file.txt') as f:\n    data = f.read()",
+                "task_instruction": "Open and read a file called 'demo.txt'.",
+                "expected_code": "with open('demo.txt') as f:\n    data = f.read()",
+                "expected_output": "",
+                "xp_reward": 25
+            }
+        ]
+    },
+    "Math": {
+        "Beginner": [
+            {
+                "title": "Math Lesson 1: Addition",
+                "content": "Addition is combining numbers. Example: 2 + 3 = 5",
+                "task_instruction": "Add 7 and 8 and store in variable total.",
+                "expected_code": "total = 7 + 8",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Math Lesson 2: Subtraction",
+                "content": "Subtraction is taking one number away from another. Example: 5 - 2 = 3",
+                "task_instruction": "Subtract 4 from 9 and store the result in variable difference.",
+                "expected_code": "difference = 9 - 4",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Math Lesson 3: Multiplication",
+                "content": "Multiplication is repeated addition. Example: 3 * 4 = 12",
+                "task_instruction": "Multiply 6 by 7 and store the result in variable product.",
+                "expected_code": "product = 6 * 7",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Math Lesson 4: Division",
+                "content": "Division is splitting into equal parts. Example: 8 / 2 = 4",
+                "task_instruction": "Divide 20 by 4 and store the result in variable quotient.",
+                "expected_code": "quotient = 20 / 4",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Math Lesson 5: Order of Operations",
+                "content": "Use PEMDAS to determine the order of operations.",
+                "task_instruction": "Calculate 3 + 2 * (8 - 5) and store in result.",
+                "expected_code": "result = 3 + 2 * (8 - 5)",
+                "expected_output": "",
+                "xp_reward": 15
+            }
+        ],
+        "Intermediate": [
+            {
+                "title": "Math Lesson 1: Fractions",
+                "content": "Fractions represent parts of a whole. Example: 1/2",
+                "task_instruction": "Create a variable half equal to 1/2.",
+                "expected_code": "half = 1/2",
+                "expected_output": "",
+                "xp_reward": 15
+            },
+            {
+                "title": "Math Lesson 2: Decimals",
+                "content": "Decimals represent fractional numbers. Example: 0.5 is half.",
+                "task_instruction": "Create a variable pi equal to 3.14.",
+                "expected_code": "pi = 3.14",
+                "expected_output": "",
+                "xp_reward": 15
+            },
+            {
+                "title": "Math Lesson 3: Ratios",
+                "content": "Ratios compare two numbers. Example: 2:3",
+                "task_instruction": "Create a ratio of 4 to 5 as a tuple.",
+                "expected_code": "ratio = (4, 5)",
+                "expected_output": "",
+                "xp_reward": 15
+            },
+            {
+                "title": "Math Lesson 4: Percentages",
+                "content": "Percentages are parts per hundred. Example: 50% = 0.5",
+                "task_instruction": "Find 20% of 50 and store in variable percent_value.",
+                "expected_code": "percent_value = 0.2 * 50",
+                "expected_output": "",
+                "xp_reward": 15
+            },
+            {
+                "title": "Math Lesson 5: Simple Algebra",
+                "content": "Algebra uses letters to represent numbers. Example: x + 2 = 5",
+                "task_instruction": "Solve for x in equation x + 3 = 7.",
+                "expected_code": "x = 7 - 3",
+                "expected_output": "",
+                "xp_reward": 20
+            }
+        ],
+        "Advanced": [
+            {
+                "title": "Math Lesson 1: Quadratic Formula",
+                "content": "Solve ax\u00b2 + bx + c = 0 with the quadratic formula.",
+                "task_instruction": "Write a function to compute roots for a=1,b=-3,c=2.",
+                "expected_code": "import math\ndef roots(a,b,c):\n    d = b**2 - 4*a*c\n    r1 = (-b+math.sqrt(d))/(2*a)\n    r2 = (-b-math.sqrt(d))/(2*a)\n    return r1,r2\nprint(roots(1,-3,2))",
+                "expected_output": "(2.0, 1.0)\n",
+                "xp_reward": 30
+            },
+            {
+                "title": "Math Lesson 2: Logarithms",
+                "content": "Logarithms are the inverse of exponents.",
+                "task_instruction": "Calculate log base 2 of 8.",
+                "expected_code": "import math\nresult = math.log(8, 2)",
+                "expected_output": "3.0\n",
+                "xp_reward": 30
+            },
+            {
+                "title": "Math Lesson 3: Matrices",
+                "content": "Matrices are rectangular arrays of numbers.",
+                "task_instruction": "Create a 2x2 matrix [[1, 2], [3, 4]].",
+                "expected_code": "matrix = [[1, 2], [3, 4]]",
+                "expected_output": "",
+                "xp_reward": 30
+            },
+            {
+                "title": "Math Lesson 4: Derivatives",
+                "content": "Derivatives measure the rate of change of a function.",
+                "task_instruction": "Find the derivative of f(x) = x^2 at x = 3.",
+                "expected_code": "x = 3\nderivative = 2 * x",
+                "expected_output": "6\n",
+                "xp_reward": 35
+            },
+            {
+                "title": "Math Lesson 5: Integrals",
+                "content": "Integrals find the area under a curve.",
+                "task_instruction": "Compute the integral of f(x) = 2x from 0 to 3.",
+                "expected_code": "area = (3**2) - (0**2)",
+                "expected_output": "9\n",
+                "xp_reward": 35
+            }
+        ]
+    },
+    "Physics": {
+        "Beginner": [
+            {
+                "title": "Physics Lesson 1: Gravity",
+                "content": "Gravity pulls objects toward Earth at ~9.8 m/s\u00b2.",
+                "task_instruction": "Store Earth's gravity in m/s\u00b2 in variable g.",
+                "expected_code": "g = 9.8",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Physics Lesson 2: Speed",
+                "content": "Speed = distance / time.",
+                "task_instruction": "Calculate speed for distance=100m and time=20s.",
+                "expected_code": "speed = 100 / 20",
+                "expected_output": "5.0\n",
+                "xp_reward": 10
+            },
+            {
+                "title": "Physics Lesson 3: Mass",
+                "content": "Mass is the amount of matter in an object.",
+                "task_instruction": "Store mass of 50kg in variable m.",
+                "expected_code": "m = 50",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Physics Lesson 4: Time",
+                "content": "Time is measured in seconds, minutes, hours.",
+                "task_instruction": "Store 60 seconds in variable t.",
+                "expected_code": "t = 60",
+                "expected_output": "",
+                "xp_reward": 10
+            },
+            {
+                "title": "Physics Lesson 5: Force",
+                "content": "Force is a push or pull on an object.",
+                "task_instruction": "Store a force of 15N in variable F.",
+                "expected_code": "F = 15",
+                "expected_output": "",
+                "xp_reward": 10
+            }
+        ],
+        "Intermediate": [
+            {
+                "title": "Physics Lesson 1: Newton's Second Law",
+                "content": "F = m * a",
+                "task_instruction": "Calculate force for m=10kg, a=3m/s\u00b2.",
+                "expected_code": "F = 10 * 3",
+                "expected_output": "30\n",
+                "xp_reward": 15
+            },
+            {
+                "title": "Physics Lesson 2: Work",
+                "content": "Work = Force \u00d7 Distance.",
+                "task_instruction": "Calculate work for F=20N and d=5m.",
+                "expected_code": "work = 20 * 5",
+                "expected_output": "100\n",
+                "xp_reward": 15
+            },
+            {
+                "title": "Physics Lesson 3: Power",
+                "content": "Power = Work / Time.",
+                "task_instruction": "Calculate power for work=100J and t=20s.",
+                "expected_code": "power = 100 / 20",
+                "expected_output": "5.0\n",
+                "xp_reward": 15
+            },
+            {
+                "title": "Physics Lesson 4: Momentum",
+                "content": "Momentum = mass \u00d7 velocity.",
+                "task_instruction": "Calculate momentum for m=4kg and v=3m/s.",
+                "expected_code": "momentum = 4 * 3",
+                "expected_output": "12\n",
+                "xp_reward": 15
+            },
+            {
+                "title": "Physics Lesson 5: Potential Energy",
+                "content": "PE = m \u00d7 g \u00d7 h.",
+                "task_instruction": "Calculate PE for m=5kg, g=9.8m/s\u00b2, h=2m.",
+                "expected_code": "PE = 5 * 9.8 * 2",
+                "expected_output": "98.0\n",
+                "xp_reward": 15
+            }
+        ],
+        "Advanced": [
+            {
+                "title": "Physics Lesson 1: Kinetic Energy",
+                "content": "KE = 0.5 * m * v\u00b2",
+                "task_instruction": "Calculate KE for m=2kg, v=3m/s.",
+                "expected_code": "KE = 0.5 * 2 * 3**2",
+                "expected_output": "",
+                "xp_reward": 30
+            },
+            {
+                "title": "Physics Lesson 2: Relativity - Time Dilation",
+                "content": "Time dilation occurs when time moves slower for objects moving close to the speed of light.",
+                "task_instruction": "Calculate time dilation for v=0.8c, t=10s.",
+                "expected_code": "import math\nc = 3e8\nv = 0.8 * c\nt = 10\ngamma = 1 / math.sqrt(1 - (v**2 / c**2))\ndilated_time = gamma * t",
+                "expected_output": "",
+                "xp_reward": 50
+            },
+            {
+                "title": "Physics Lesson 3: Schr\u00f6dinger Equation",
+                "content": "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+                "task_instruction": "Write a placeholder function for Schr\u00f6dinger equation evolution.",
+                "expected_code": "def schrodinger(psi, H, t):\n    pass",
+                "expected_output": "",
+                "xp_reward": 50
+            },
+            {
+                "title": "Physics Lesson 4: Maxwell's Equations",
+                "content": "Maxwell's equations describe electromagnetism.",
+                "task_instruction": "Store four Maxwell equations as strings in a list.",
+                "expected_code": "maxwell_eqs = ['Gauss law', 'Gauss law for magnetism', 'Faraday law', 'Ampere law']",
+                "expected_output": "",
+                "xp_reward": 50
+            },
+            {
+                "title": "Physics Lesson 5: General Relativity - Curved Spacetime",
+                "content": "General Relativity describes gravity as curvature of spacetime caused by mass-energy.",
+                "task_instruction": "Write a placeholder function for Einstein field equations.",
+                "expected_code": "def einstein_field_equations(T):\n    pass",
+                "expected_output": "",
+                "xp_reward": 50
+            }
+        ]
+    }
+}
