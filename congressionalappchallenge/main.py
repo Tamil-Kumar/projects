@@ -173,7 +173,7 @@ def show_home():
     add_content(
         tab4,
         "About Me",
-        ["13 years old", "Goes to Middle North Middle School", "Has a pet dog named Ginger", "Plays piano and flute", "Coding in Python for 2 years", "Coding in general for over 4 years", "Learned HTML, CSS, JavaScript, C++, C#, C, and Python"],
+        ["13 years old", "Goes to Millard North Middle School", "Has a pet dog named Ginger", "Plays piano and flute", "Coding in Python for 2 years", "Coding in general for over 4 years", "Learned HTML, CSS, JavaScript, C++, C#, C, and Python", "I am a black belt in taekwondo"],
         ""
     )
 
