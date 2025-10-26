@@ -43,5 +43,13 @@
             "Physics Lesson 2: Work",
             "Lesson 1: Variables"
         ]
+    },
+    "test": {
+        "password": "test",
+        "subject": "General",
+        "skill_level": "Beginner",
+        "xp": 0,
+        "streak": 0,
+        "last_login": null
     }
 }
