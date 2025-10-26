@@ -1,3 +1,3 @@
-10/23/2025
+10/26/2025
 
-This is to learn Oracle and ExaData
+This is a repo for all of my coding projects
