@@ -4,7 +4,7 @@
 **User Instructions:**\
     1. Download the "lessons.json", "users.json", and "main.py" files to your local machine (*Make sure that they are in the same folder*).\
     2. Run `python main.py`\
-    3. Follow the login/register instructions on the screen.\
+    3. Follow the login/register instructions on the screen.
 
 **Journey:**\
     Through this project, I learned the power of perseverance and not giving up. At multiple moments through this enlightening journey, I have experienced many moments where I was really struggling on a certain task, and I wanted to stop and give up. Instead of just moving on, and forgetting this experience, I decided to learn, and find out how to make it work. I had to spend a lot of time google searching and watching YouTube videos, but in the end, after a long and hard process, I finally got it completely working.
