@@ -1,3 +1,36 @@
+#    -*- coding: utf-8 -*-
+#
+#    NAME: main.py
+#    AUTHOR: Tamil Kumar
+#    DATE: 10/30/2025
+#    VERSION: 1.0
+#
+#    DESCRIPTION:
+#      This is the main python script that runs the app. This script runs and 
+#      initializes the CustomTKinter UI. This is designed to prevent people from
+#      mindlessly staring at their screens, without doing anything productive.
+#
+#    DEPENDENCIES:
+#      - Python 3.13.7
+#      - CustomTKinter
+#      - Pillow
+#
+#    DEPENDENCIES INSTALLATION:
+#      - Go to this website: https://www.python.org/downloads
+#      - pip install customtkinter
+#      - pip install Pillow
+#
+#    USAGE:
+#      To run this script, excute:
+#        python main.py (Make sure that you are CDed into the same directory as the
+#                        main.py script)
+#
+#    NOTES
+#      If this file isn't in the same directory as the lessons.json and the 
+#      users.json files, the app won't work
+
+
+# Imports necessary modules
 import customtkinter as ctk
 from PIL import Image
 import json
@@ -5,6 +38,7 @@ import os
 from datetime import datetime, timedelta
 import traceback
 
+# Declares global variables
 USER_DB_FILE = "users.json"
 BADGE_RULES = [
     {"id": "beginner", "emoji": "🎓", "name": "Beginner Badge", "condition": lambda u: "Lesson 1: Variables" in u.get("completed_lessons", [])},
@@ -47,7 +81,7 @@ def show_home():
         font=("Helvetica", 28, "bold")
     ).pack(side="left", padx=10)
 
-    if user_data["username"]:  # logged in
+    if user_data["username"]:
         ctk.CTkButton(
             topbar, text="👤 Profile", width=130, height=40,
             corner_radius=20, font=("Helvetica", 14, "bold"),
@@ -122,7 +156,7 @@ def show_home():
     tab1 = tabview.add("🎓 Why Learn Python?")
     tab2 = tabview.add("🚀 Features")
     tab3 = tabview.add("🌍 Who Uses Python?")
-    tab4 = tabview.add("ℹ About")  # NEW TAB
+    tab4 = tabview.add("ℹ About")
 
     def add_content(parent, heading, highlights, paragraph):
         container = ctk.CTkFrame(parent, corner_radius=12, fg_color="#334155")
@@ -145,7 +179,7 @@ def show_home():
             wraplength=800, text_color="white"
         ).pack(anchor="w", padx=20, pady=(15, 20))
 
-    # --- Tab 1 ---
+    # --- Tab 1 (Why learn Python) ---
     add_content(
         tab1,
         "Why Learn Python?",
@@ -153,7 +187,7 @@ def show_home():
         "Python is one of the fastest-growing languages. It powers AI, web development, data science, and automation."
     )
 
-    # --- Tab 2 ---
+    # --- Tab 2 (Key features) ---
     add_content(
         tab2,
         "Key Features of Python",
@@ -161,7 +195,7 @@ def show_home():
         "Python adapts to many fields. From building websites with Django to analyzing data with Pandas, its versatility is unmatched."
     )
 
-    # --- Tab 3 ---
+    # --- Tab 3 (Who uses Python) ---
     add_content(
         tab3,
         "Who Uses Python?",
