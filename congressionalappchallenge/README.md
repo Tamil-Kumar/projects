@@ -1,5 +1,5 @@
 **Project Overview:**\
-    SkillScreen teaches students how to code in Python in a fun and effective manner. The goal of this app is to get students to be productive with the time that they're spending on their screen. The coding language that I have used to code this application is **Python**. I also used the **CustomTKinter** Python module to make the User Interface (UI).
+&nbsp;&nbsp;&nbsp;&nbsp;SkillScreen teaches students how to code in Python in a fun and effective manner. The goal of this app is to get students to be productive with the time that they're spending on their screen. The coding language that I have used to code this application is **Python**. I also used the **CustomTKinter** Python module to make the User Interface (UI).
 
 **User Instructions:**\
     1. Download the "lessons.json", "users.json", and "main.py" files to your local machine (*Make sure that they are in the same folder*).\
