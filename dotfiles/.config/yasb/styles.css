@@ -1,0 +1,361 @@
+* {
+    font-size: 12px;
+    color: #bec8e7;
+    font-weight: 500;
+    font-family: "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --main: #6BA1B1;
+    --main2: #52B5CB;
+}
+
+.yasb-bar {
+    padding: 0;
+    margin: 0;
+}
+.widget {
+    padding: 0 8px;
+    margin: 0 4px;
+    border-radius: 6px;
+}
+.widget .icon {
+    font-size: 18px;
+}
+.win-btn {
+    background-color: #F3BF7D;
+}
+.win-btn .icon {
+    color: #142123;
+}
+.komorebi-workspaces {
+    background-color: #221f2e;
+}
+.komorebi-workspaces .offline-status {
+    color: #627199;
+    font-size: 12px;
+    padding: 0 4px;
+    font-weight: 600;
+}
+.komorebi-workspaces .ws-btn {
+    border: none;
+    background-color: var(--main);
+    margin: 0px 4px;
+    padding: 0;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    height: 10px;
+    width: 10px;
+}
+.komorebi-workspaces .ws-btn:hover {
+    background-color: #91b2e7;
+}
+.komorebi-workspaces .ws-btn.populated {
+    background-color: #304147;
+}
+
+.komorebi-workspaces .ws-btn.active {
+    color: rgba(149, 177, 255, 0);
+    background-color: var(--main2);
+    width: 36px;
+    height: 10px;
+    border-radius: 5px;
+}
+.traffic-widget {
+    background-color: var(--main);
+    padding: 0;
+}
+.traffic-widget .icon {
+    color: #142123;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.traffic-widget .label {
+    background-color: #221f2e;
+    margin: 1px;
+    border-radius: 6px;
+    padding: 0 6px;
+    color: var(--main);
+}
+
+.clock-widget {
+    background-color: var(--main);
+    padding: 0;
+}
+.clock-widget .icon {
+    color: #142123;
+    padding: 0 6px;
+}
+.clock-widget .label {
+    background-color: #221f2e;
+    color: var(--main);
+    padding: 0 6px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.memory-widget {
+    background-color: var(--main2);
+    padding: 0;
+}
+
+.memory-widget .icon {
+    color: #142123;
+    padding: 0 6px;
+}
+
+.memory-widget .label {
+    background-color: #221f2e;
+    color: var(--main2);
+    padding: 0 6px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.recycle-bin-widget {
+    background-color: var(--main2);
+    padding: 0;
+}
+
+.recycle-bin-widget .icon {
+    color: #142123;
+    padding: 0 6px;
+}
+
+.recycle-bin-widget .label {
+    background-color: #221f2e;
+    color: var(--main2);
+    padding: 0 6px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.disk-widget {
+    background-color: var(--main2);
+    padding: 0;
+}
+
+.disk-widget .icon {
+    color: #142123;
+    padding: 0 6px;
+}
+
+.disk-widget .label {
+    background-color: #221f2e;
+    color: var(--main2);
+    padding: 0 6px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.cpu-widget {
+    background-color: var(--main2);
+    padding: 0;
+}
+
+.cpu-widget .icon {
+    color: #142123;
+    padding: 0 6px;
+}
+
+.cpu-widget .label {
+    background-color: #221f2e;
+    color: var(--main2);
+    padding: 0 6px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.media-widget {
+    background-color: var(--main2);
+    padding: 0;
+}
+
+.media-widget .btn {
+    color: #142123;
+    padding: 0 1px;
+    font-weight: 400;
+}
+
+.media-widget .label {
+    background-color: #221f2e;
+    color: var(--main2);
+    padding: 0 8px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.volume-widget {
+    background-color: var(--main);
+    padding: 0;
+}
+.volume-widget .icon {
+    color: #142123;
+    padding: 0 6px;
+}
+.volume-widget .label {
+    background-color: #221f2e;
+    color: var(--main);
+    padding: 0 8px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.battery-widget {
+    background-color: var(--main);
+    padding: 0;
+}
+
+.battery-widget .icon {
+    color: #142123;
+    padding: 0 6px;
+}
+
+.battery-widget .label {
+    background-color: #221f2e;
+    color: var(--main);
+    padding: 0 6px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.komorebi-active-layout {
+    background-color: var(--main);
+    padding: 0;
+}
+
+.komorebi-active-layout .label {
+    background-color: #221f2e;
+    color: var(--main);
+    padding: 0 6px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.weather-widget {
+    background-color: var(--main2);
+    padding: 0;
+}
+.weather-widget .icon {
+    color: #142123;
+    padding: 0 6px;
+}
+.weather-widget .label {
+    background-color: #221f2e;
+    color: var(--main2);
+    padding: 0 6px;
+    margin: 1px;
+    border-radius: 6px;
+}
+
+.power-menu-widget {
+    background-color: #c4a7e7;
+    padding: 0;
+}
+
+.power-menu-widget .label {
+    color: #142123;
+    padding: 0 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.language-widget {
+    background-color: #f5c276;
+    padding: 0;
+}
+.language-widget .icon {
+    color: #142123;
+    padding: 0 6px;
+}
+.language-widget .label {
+    background-color: #221f2e;
+    color: #f5c276;
+    padding: 0 8px;
+    margin: 1px;
+    border-radius: 6px;
+}
+.taskbar-widget {
+    background-color: #221f2e;
+    padding: 0;
+}
+.taskbar-widget .app-icon {
+    padding: 0 8px;
+    border: none;
+    margin: 0;
+}
+.active-window-widget {
+    background-color: var(--main2);
+    padding: 0;
+}
+.active-window-widget .label {
+    color: var(--main2);
+    background-color: #221f2e;
+    padding: 0 8px;
+    margin: 1px;
+    border-radius: 6px;
+}
+.active-window-widget .icon {
+    padding: 0 8px;
+    border: none;
+    margin: 0;
+    background-color: var(--main2);
+}
+
+/*POWER MENU POPUP*/
+.uptime {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgba(191, 202, 219, 0.726);
+    font-weight: 600;
+}
+.power-menu-popup {
+    background-color: rgba(24, 24, 37, 0);
+    border-radius: 12px;
+
+}
+.power-menu-popup .button {
+    padding: 0;
+    width: 180px;
+    height: 230px;
+    border-radius: 8px;
+    background-color: #221f2e;
+    color: #c2a7e2;
+    border: 8px solid #1b1925;
+    margin: 0px;
+}
+.power-menu-popup .button.hover {
+    background-color: #1b1925;
+}
+.power-menu-popup .button .label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #c5a6e7;
+
+}
+.power-menu-popup .button .icon {
+    font-size: 64px;
+    padding-top: 32px;
+    color: #c5a6e7;
+}
+.power-menu-popup .button.cancel .icon {
+    padding: 0;
+    margin: 0;
+}
+.power-menu-popup .button.cancel .label {
+    margin: 0;
+}
+
+.power-menu-popup .button.cancel {
+    height: 32px;
+    border-radius: 4px;
+    border: none;
+    background-color: #221f2e;
+}
+.power-menu-popup .button.cancel:hover {
+    background-color: #1b1925;
+}
